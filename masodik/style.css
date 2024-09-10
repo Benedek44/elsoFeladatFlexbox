@@ -1,0 +1,73 @@
+.mainDiv{
+    display: flex;
+    background-color: yellow;
+    width: 800px;
+    height: 300px;
+}
+
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.purple{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+.firstYellow{
+    display: none;
+}
+
+.firstGreen{
+    display: none;
+}
+
+.firstMain {
+    justify-content: center;
+    align-items: center;
+}
+
+.mainListDiv{
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+}
+
+li{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: purple;
+    list-style: square;
+}
+
+.firstListDiv{
+    align-items: center;
+}
+
+.firstListDiv>li{
+    margin-right: 15px;
+}
+
+.secondListDiv{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thirdListDiv{
+    align-items: flex-end;
+    justify-content:flex-end;
+}
+.thirdListDiv>li{
+    margin-left: 15px;
+}
