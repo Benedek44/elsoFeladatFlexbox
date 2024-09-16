@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+}
+.mainDiv{
+    display: flex;
+    width: 1600px;
+    height: 600px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.yellow{
+    width: 1000px;
+    height: 600px;
+    background-color: yellow;
+}
+
+.green{
+    width: 600px;
+    height: 600px;
+    background-color: green;
+}
+
+.purple{
+    width: 1600px;
+    height: 55px;
+    background-color: purple;
+    flex-grow: 1;
+}
+.blue{
+    width: 110px;
+    height: 35px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+
+#masodikfeladat{
+    margin-top: 300px;
+}
+.secondMain{
+    width: 100%;
+}
+
+.secondPurple{
+    width: 100%;
+}
+
+.secondGreen{
+    margin: 10px 5px 5px 100px;
+    width: 500px;
+}
+
+.secondYellow{
+    width: 1200px;
+    margin: 10px 10px 5px 5px;
+    margin-right: 10px ;
+}
+
+.grey{
+    width: 90%;
+    background-color: grey;
+    height: 80px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.secondBlue:first-child{
+    margin-left: 100px;
+}
+.secondBlue{
+    width: 90px;
+}
+
+.thirdMain{
+    margin: 0px;
+    width: 800px;
+}
+.hatter{
+    background-color: antiquewhite;
+    height: 800px;
+}
+
+.lightBlue{
+    background-color: aqua;
+    width: 100%;
+    height: 90px;
+    flex-grow: 1;
+}
+.orange{
+    background-color: orange;
+    height: 600px;
+    width: 100px;
+}
+.red{
+    background-color: red;
+    width: 400px;
+    height: 600px;
+}
+
+.lastPurple{
+    background-color: purple;
+    height: 600px;
+    width: 100px;
+}
+
+.lastBlue{
+    background-color: blue;
+    width: 600px;
+    height: 150px;
+}
