@@ -79,7 +79,8 @@ body{
 }
 .hatter{
     background-color: antiquewhite;
-    height: 800px;
+    height: 900px;
+    position: relative;
 }
 
 .lightBlue{
@@ -95,8 +96,9 @@ body{
 }
 .red{
     background-color: red;
-    width: 400px;
+    width: 500px;
     height: 600px;
+    margin: 0px 50px 0px 50px;
 }
 
 .lastPurple{
@@ -107,6 +109,15 @@ body{
 
 .lastBlue{
     background-color: blue;
-    width: 600px;
-    height: 150px;
+    width: 100%;
+    height: 90px;
+}
+.black{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
 }
